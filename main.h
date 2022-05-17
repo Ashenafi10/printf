@@ -1,7 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
+#include <unistd.h>
 #include <stdint.h>
 #include <stdarg.h>
+#include <stdio.h>
+#include <limits.h>
 int _putchar(char c);
 int _strlen(const char *s, int flag);
 void unsigned_integer_to_string(uint64_t integer, int base,
